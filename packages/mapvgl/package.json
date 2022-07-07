@@ -1,0 +1,12 @@
+{
+  "name": "@emguse/mapvgl",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hongxing.qian",
+  "license": "ISC"
+}
