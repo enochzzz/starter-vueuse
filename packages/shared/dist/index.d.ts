@@ -11,6 +11,7 @@ interface SkyLayer extends Common {
 }
 interface MapLk extends Common {
 }
+
 interface Padding {
     top?: number;
     bottom?: number;
@@ -47,7 +48,10 @@ interface FlyToOptions extends ToOptions {
     screenSpeed?: number;
     maxDuration?: number;
 }
+
 declare function createLKMapLayer(layer: string, options: Common): any;
+
 declare const SKY_LAYER = "SkyLayer";
 declare const MAP = "Map";
-export { Padding, FitBoundsOptions, ToOptions, EaseToOptions, FlyToOptions, Common, LngLat, Bounds, Pixel, SkyLayer, MapLk, createLKMapLayer, SKY_LAYER, MAP };
+
+export { Bounds, Common, EaseToOptions, FitBoundsOptions, FlyToOptions, LngLat, MAP, MapLk, Padding, Pixel, SKY_LAYER, SkyLayer, ToOptions, createLKMapLayer };

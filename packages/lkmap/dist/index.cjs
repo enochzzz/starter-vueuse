@@ -2,11 +2,13 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var mapvgl = require('@emguse/mapvgl');
+function func2() {
+    console.log('i am pkg 2');
+}
 
 // const a = new LKMap.Icon()
 function fun1() {
-    mapvgl.func2();
+    func2();
     console.log('i am pkg 1');
 }
 fun1();

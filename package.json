@@ -8,19 +8,26 @@
     "build": "turbo run build",
     "test": "turbo run test",
     "lint": "turbo run lint",
-    "dev": "turbo run dev",
+    "dev": "nr update && nr docs",
     "deploy": "turbo run deploy",
-    "build:rollup": "rollup -c"
+    "build:rollup": "rollup -c",
+    "build:rollup-watch": "rollup -c --watch",
+    "docs": "vitepress dev packages",
+    "docs:build": "vitepress build packages",
+    "docs:serve": "vitepress serve packages"
   },
   "author": "hongxing.qian",
   "license": "ISC",
   "devDependencies": {
+    "@emguse/shared": "workspace:^1.0.0",
     "esbuild": "^0.14.48",
     "esbuild-register": "^3.3.3",
     "rollup": "^2.75.7",
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-ts": "^3.0.2",
     "turbo": "^1.3.1",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
   }
 }

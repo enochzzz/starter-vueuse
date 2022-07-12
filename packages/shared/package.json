@@ -1,0 +1,11 @@
+{
+  "name": "@emguse/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hongxing.qian",
+  "license": "ISC"
+}

@@ -1,3 +1,5 @@
+// import { MapLk } from '../types/baseClass'
+
 declare let LKMap
 declare let mapvgl
 
