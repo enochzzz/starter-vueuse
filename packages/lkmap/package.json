@@ -1,5 +1,5 @@
 {
-  "name": "@emguse/lkmap",
+  "name": "@pkgName/lkmap",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "hongxing.qian",
   "license": "ISC",
   "dependencies": {
-    "@emguse/mapvgl": "workspace:^1.0.1"
+    "@pkgName/mapvgl": "workspace:^1.0.1"
   }
 }

@@ -1,5 +1,5 @@
 import { Ref, ref } from 'vue'
-import { MapLk, SkyLayer, Common, LngLat, createLKMapLayer, SKY_LAYER } from "@emguse/shared"
+import { MapLk, SkyLayer, Common, LngLat, createLKMapLayer, SKY_LAYER } from "@pkgName/shared"
 
 export interface SkyLayerOptions {
   map: MapLk,

@@ -9,7 +9,7 @@ category: LKMap
 ## Usage
 
 ```js
-import { useMap } from '@emguse/lkmap'
+import { useMap } from '@pkgName/lkmap'
 import { mapOptions } from 'config'
 // pinia
 const mapStore = useMapStore()

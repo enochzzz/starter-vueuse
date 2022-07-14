@@ -1,4 +1,4 @@
-import { Bounds, createLKMapLayer, FitBoundsOptions, LngLat, MapLk, MAP } from "@emguse/shared"
+import { Bounds, createLKMapLayer, FitBoundsOptions, LngLat, MapLk, MAP } from "@pkgName/shared"
 import { ref, Ref } from 'vue'
 
 export interface MapOptions {

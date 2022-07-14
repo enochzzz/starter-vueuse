@@ -1,4 +1,4 @@
-import { func2 } from '@emguse/mapvgl'
+import { func2 } from '@pkgName/mapvgl'
 // const a = new LKMap.Icon()
 function fun1() {
   func2()

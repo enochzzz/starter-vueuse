@@ -9,7 +9,7 @@ category: LKMap
 ## Usage
 
 ```js
-import { useSkyLayer } from '@emguse/lkmap'
+import { useSkyLayer } from '@pkgName/lkmap'
 import { skyLayerOptions } from 'config'
 // pinia
 const mapStore = useMapStore()

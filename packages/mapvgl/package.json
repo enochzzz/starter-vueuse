@@ -1,5 +1,5 @@
 {
-  "name": "@emguse/mapvgl",
+  "name": "@pkgName/mapvgl",
   "version": "1.0.1",
   "description": "",
   "main": "./dist/index.cjs",

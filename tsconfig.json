@@ -17,8 +17,8 @@
     "skipLibCheck": true,
     "noUnusedLocals": true,
     "paths": {
-      "@emguse/lkmap/*": ["./packages/core/*"],
-      "@emguse/mapvgl/*": ["./packages/core/*"],
+      "@pkgName/lkmap/*": ["./packages/core/*"],
+      "@pkgName/mapvgl/*": ["./packages/core/*"],
     }
   },
   "include": [

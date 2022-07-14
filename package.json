@@ -1,5 +1,5 @@
 {
-  "name": "emguse",
+  "name": "pkgName",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,7 +19,7 @@
   "author": "hongxing.qian",
   "license": "ISC",
   "devDependencies": {
-    "@emguse/shared": "workspace:^1.0.0",
+    "@pkgName/shared": "workspace:^1.0.0",
     "esbuild": "^0.14.48",
     "esbuild-register": "^3.3.3",
     "rollup": "^2.75.7",

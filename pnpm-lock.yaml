@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@emguse/shared': workspace:^1.0.0
+      '@pkgName/shared': workspace:^1.0.0
       esbuild: ^0.14.48
       esbuild-register: ^3.3.3
       rollup: ^2.75.7
@@ -15,7 +15,7 @@ importers:
       vitepress: ^1.0.0-alpha.4
       vue: ^3.2.37
     devDependencies:
-      '@emguse/shared': link:packages/shared
+      '@pkgName/shared': link:packages/shared
       esbuild: 0.14.48
       esbuild-register: 3.3.3_esbuild@0.14.48
       rollup: 2.75.7
@@ -28,11 +28,14 @@ importers:
 
   packages/lkmap:
     specifiers:
-      '@emguse/mapvgl': workspace:^1.0.1
+      '@pkgName/mapvgl': workspace:^1.0.1
     dependencies:
-      '@emguse/mapvgl': link:../mapvgl
+      '@pkgName/mapvgl': link:../mapvgl
 
   packages/mapvgl:
+    specifiers: {}
+
+  packages/shared:
     specifiers: {}
 
 packages:
